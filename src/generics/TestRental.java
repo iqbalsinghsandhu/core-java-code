@@ -14,6 +14,6 @@ class TestRental {
 		Car carToRent = carRental.getRental();
 		carRental.returnRental(carToRent);
 		// can we stick something else in the original carList?
-		carList.add(new Cat("Fluffy"));
+		carList.addAll((Collection<? extends Car>) new Cat("Fluffy"));
 	}
 }

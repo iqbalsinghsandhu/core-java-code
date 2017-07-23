@@ -17,7 +17,7 @@ public class House extends Building {
 	}
 
 	House(String name) {
-		this(); //Executes the default constructor of the House class
+		this(); // Executes the default constructor of the House class
 		System.out.print("hn " + name);
 	}
 

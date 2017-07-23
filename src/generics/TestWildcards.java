@@ -12,6 +12,6 @@ public class TestWildcards {
 
 class Bar {
 	void doInsert(List<?> list) {
-		list.add(new NewDog());
+		//list.add((Collection<?>) new Object());
 	}
 }

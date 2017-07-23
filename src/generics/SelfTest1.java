@@ -10,9 +10,9 @@ public class SelfTest1 {
 		List<Integer> row = new ArrayList<Integer>();
 		for (int j = 0; j <= 10; j++)
 		row.add(i * j);
-		table.add(row);
+		table.addAll(row);
 		}
-		for (List<Integer> row : table)
+		for (Integer row : table)
 		System.out.println(row);
 		}	
 	
