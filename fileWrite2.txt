@@ -1,3 +1,5 @@
 howdy
 folks
 Good
+This is latest modification in fileWrite2.
+If everthing is ok then merge the code.
